@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Robbie1977/docker-ocpu-nblast.svg?branch=master)](https://travis-ci.org/Robbie1977/docker-ocpu-nblast)
+[![Build Status](https://travis-ci.org/VirtualFlyBrain/docker-ocpu-nblast.svg?branch=master)](https://travis-ci.org/VirtualFlyBrain/docker-ocpu-nblast)
 
 # docker-ocpu-nblast
 openCPU loaded with NBLAST service loaded
@@ -7,7 +7,7 @@ openCPU loaded with NBLAST service loaded
 
 To Run:
 ```
-docker run -d -ti --name nblast -p 80:80 -p 8004:8004 -p 443:443 rcourt/docker-ocpu-nblast
+docker run -d -ti --name nblast -p 80:80 -p 8004:8004 -p 443:443 virtualflybrain/docker-ocpu-nblast
 ```
 
 ## OpenCPU API
